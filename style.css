@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%; /*Establecer el tamaño de la leta a 10px*/
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: hsl(30, 54%, 90%);
+}
+main{
+    background-color: white;
+}
+.Imagen-titular{
+    width: 100px;
+    height: 200px;
+    border: 2px solid red;
+
+
+}
+.Imagen-titular img{
+    object-fit: scale-down;
+}
